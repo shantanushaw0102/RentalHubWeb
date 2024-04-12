@@ -1,0 +1,34 @@
+
+
+.rec-flex {
+  display: flex;
+  margin-left: 20rem;
+}
+.rec-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family: "Saira", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(76, 68, 112);
+}
+.rec-btns {
+  font-family: "Itim", cursive;
+  font-weight: 500;
+  font-style: normal;
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 1px solid #282f61;
+  border-radius: 5px;
+  color: #120f15;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 1rem;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+}

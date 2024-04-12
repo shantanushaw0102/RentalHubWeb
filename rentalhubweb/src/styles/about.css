@@ -1,0 +1,224 @@
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.grid {
+  padding: 40px 0px;
+  display: grid;
+  gap: 2rem;
+}
+
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+.about-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+figure {
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 400px;
+    height: 485px;
+    border-radius: 5px;
+    background-color: rgba(118, 96, 255, 0.4);
+    position: absolute;
+    left: 25%;
+    top: -1rem;
+    z-index: -1;
+  }
+}
+.img-style {
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.company-about {
+  max-width: 100%;
+  height: auto;
+  font-family: "Playfair Display", serif;
+  padding: 0px 20px;
+}
+.company-about h2 {
+  color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.company-about p {
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.grid-three-column {
+  grid-template-columns: repeat(3, 1fr);
+}
+.company-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(201, 239, 227, 1) 62%,
+    rgba(230, 212, 230, 1) 100%
+  );
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.history h2 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mission h2 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.services h2 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.team-container {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  background: rgb(235, 234, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 234, 249, 1) 0%,
+    rgba(201, 239, 239, 1) 54%,
+    rgba(130, 228, 248, 1) 100%
+  );
+}
+
+.team-heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  color: #0b0a0b;
+  line-height: 1;
+}
+
+.team-heading span {
+  padding: 5px 15px;
+  background: #afb8f2;
+}
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem auto;
+  max-width: 90%;
+}
+
+.dictionary > .term {
+  text-align: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 4px 0 rgba(36, 32, 32, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+.dictionary > .term > dt {
+  margin-bottom: 1rem;
+}
+
+.name-role {
+  max-width: 90%;
+}
+.name-role ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name-role li {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.name-role li:first-of-type {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.name-role li:nth-of-type(2) {
+  padding: 20px 0px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.team p {
+  font-size: 1.1rem;
+  word-spacing: 3px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.team-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(129, 208, 235);
+}
+
+.team-icon {
+  max-width: 90%;
+}
+.team-icon ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  list-style-type: none;
+}
+.team-icon li {
+  padding: 20px;
+}
+
+.team-icon li a {
+  color: rgb(192, 179, 107); /* Set the default color for the icons */
+}
+
+.team-icon li a:hover .email {
+  color: rgb(241, 47, 134);
+}
+.team-icon li a:hover .linkedin {
+  color: rgb(51, 0, 255);
+}
+.team-icon li a:hover .github {
+  color: rgb(12, 193, 15);
+}

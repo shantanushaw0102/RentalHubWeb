@@ -1,0 +1,122 @@
+
+
+.footer-container {
+  background: rgb(248, 248, 246);
+  background: radial-gradient(
+    circle,
+    rgba(248, 248, 246, 1) 0%,
+    rgba(237, 253, 255, 1) 11%,
+    rgba(245, 255, 240, 1) 27%,
+    rgba(244, 248, 244, 1) 50%,
+    rgba(220, 224, 221, 1) 82%,
+    rgba(200, 200, 200, 1) 100%
+  );
+  color: #5a5757;
+  margin-top: 10px;
+  padding: 20px 0;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: normal;
+}
+
+.f-co-img{
+  margin-left: 20px;
+  margin-top: 22px;
+}
+
+.f-co-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.f-co-heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 1.3rem;
+  color: #130f11;
+}
+
+.f-co-contents {
+  list-style: none;
+  padding: 0;
+}
+
+.f-co-contents li {
+  margin-bottom: 10px;
+}
+
+.f-co-contents a {
+  color: #5a5757;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.f-co-contents a:hover {
+  color: #e31173;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.f-address {
+  margin-top: 20px;
+}
+
+.f-co-icon {
+  color: #454343;
+  font-size: 1.5rem; /* Adjust size as needed */
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+.f-co-social-btns a {
+  color: black;
+}
+.f-co-icon:hover {
+  color: rgb(165, 130, 11);
+}
+
+.sub-btns {
+  background-color: #a042ed;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  box-shadow: 0px 6px 7px rgb(76, 75, 75);
+}
+
+.sub-btns:hover {
+  background-color: #2c1e70;
+}
+
+.f-co-input-sub {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  box-shadow: 0px 6px 7px rgb(151, 149, 149);
+}
+
+.f-co-input-sub[type="email"]:focus {
+  border-color: #070b85;
+  outline: none;
+}
+.f-copyright {
+  font-family: "Itim", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: capitalize;
+  background-color: #b9bbf6;
+  color: #404040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}

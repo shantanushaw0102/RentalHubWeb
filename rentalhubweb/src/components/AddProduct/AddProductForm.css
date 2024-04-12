@@ -1,0 +1,115 @@
+.addform-outer-container {
+    background: rgb(225, 215, 255);
+    background: radial-gradient(
+      circle,
+      rgba(225, 215, 255, 1) 0%,
+      rgba(221, 249, 255, 1) 19%,
+      rgba(198, 255, 197, 1) 36%,
+      rgba(247, 255, 218, 1) 52%,
+      rgba(220, 224, 221, 1) 78%,
+      rgba(193, 185, 255, 1) 100%
+    );
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .addform-conatiner {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgb(105, 104, 104);
+    text-transform: uppercase;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(67, 67, 65);
+  }
+  
+  .apf-heading {
+    letter-spacing: 2px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(49, 29, 95);
+  }
+  
+  .apf-label {
+    font-weight: bold;
+  }
+  
+  .apf-category,
+  .apf-name,
+  .apf-type,
+  .apf-brand,
+  .apf-model,
+  .apf-seller,
+  .apf-location,
+  .apf-year,
+  .apf-price,
+  .apf-description,
+  .apf-reviews,
+  .apf-comments,
+  .apf-image {
+    margin-bottom: 15px;
+  }
+  
+  .apf-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .apf-input,
+  .apf-file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .apf-file-input {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .apf-file-input::-webkit-file-upload-button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .apf-file-input::-webkit-file-upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .apf-file-input:hover {
+    border-color: #007bff;
+  }
+  
+  .apf-submit {
+    background-color: #c70d6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto; 
+  
+    box-shadow: 2px 3px 5px rgb(57, 56, 56);
+    
+  }
+  
+  .apf-submit:hover {
+    background-color: #f1a247;
+    
+  }
+  

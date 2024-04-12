@@ -1,0 +1,31 @@
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.contact {
+  display: block;
+  font-size: 2.2rem;
+  text-align: center;
+  color: rgb(105, 95, 68);
+  font-family: "Protest Riot", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.map {
+  padding: 20px;
+}
+
+.cf-heading {
+  text-align: center;
+  color: #5e918c;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+  font-family: "Itim", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: underline;
+}

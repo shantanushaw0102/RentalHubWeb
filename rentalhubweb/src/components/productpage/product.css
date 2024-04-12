@@ -1,0 +1,14 @@
+.main-product-container {
+  line-height: 1;
+  margin: 10px 0px;
+
+  background: rgb(241, 240, 202);
+  background: radial-gradient(
+    circle,
+    rgba(241, 240, 202, 1) 4%,
+    rgba(194, 249, 253, 1) 26%,
+    rgba(245, 240, 255, 1) 55%,
+    rgba(255, 248, 249, 1) 82%,
+    rgba(254, 255, 235, 1) 100%
+  );
+}
